@@ -38,22 +38,34 @@ nav ul li a {
 }
 
 /* Sectie-stijlen */
-section {
-    padding: 40px;
-    background-color: #fff;
-    margin: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+section#home {
+    text-align: center;
+    padding: 80px 0;
 }
 
-section h2 {
-    font-size: 24px;
+section#home h2 {
+    font-size: 28px;
     margin-top: 0;
 }
 
-section p {
-    font-size: 16px;
+section#home p {
+    font-size: 18px;
     line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #555;
 }
 
 /* Footer-stijlen */
@@ -62,9 +74,4 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-}
-
-/* Hover-effect voor navigatielinks */
-nav ul li a:hover {
-    color: #ff9900; /* Oranje kleur */
 }
