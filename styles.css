@@ -31,10 +31,12 @@ nav a {
     text-decoration: none;
     color: #fff;
 }
-
+.introductie{
+    width:50%;
+}
 /* Sectie-stijlen */
 section {
-    width:50%;
+    
     padding: 50px 0;
     text-align: center;
 }
