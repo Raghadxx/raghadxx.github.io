@@ -35,20 +35,22 @@ nav a {
 
 /* Sectie-stijlen */
 .introductie{
-    width: 500px;px;
-    
-    padding: 20px 0;
-   
+    width: 500px:px;
+    padding: 20px;
+
 }
 
-/* Project-stijlen */
-.project {
-    margin: 20px;
+.history{
+    width: 30px;
+    padding: 20px;;
+
 }
 
-.project img {
-    max-width: 100%;
-}
+
+
+
+
+
 
 /* Footer-stijlen */
 footer {
