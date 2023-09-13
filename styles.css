@@ -63,7 +63,7 @@ nav ul li a {
 
 .main-content {
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5); ;
     margin-top: 60px; 
 }
 
@@ -101,12 +101,19 @@ footer {
 .algemeen h1 {
     font-size: 32px;
     color: #0078d4;
+    background-color: rgba(0, 0, 0, 0.5); 
 }
 
 .algemeen p {
     font-size: 16px;
     color: #fff; 
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+    background-color: rgba(0, 0, 0, 0.5); 
+
+.introductie p{
+
+    background-color: rgba(0, 0, 0, 0.5); 
+}
 } 
 
 @media screen and (max-width: 768px) {
