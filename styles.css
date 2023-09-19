@@ -70,15 +70,11 @@ nav ul li a {
 h1, h2, strong, li, p {
     color: #fff;
     text-align: center;
-    width: 600px;
 }
-
-
 
 p {
     line-height: 1.5;
-    color: #fff;
-    width: 600px; 
+    color: #fff; 
 }
 
 ul {
@@ -101,6 +97,24 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+
+.algemeen h1 {
+    font-size: 32px;
+    color: #0078d4;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.algemeen p {
+    font-size: 16px;
+    color: #fff; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+    background-color: rgba(0, 0, 0, 0.5); 
+
+.introductie p{
+
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+} 
 
 @media screen and (max-width: 768px) {
     header h1 {
