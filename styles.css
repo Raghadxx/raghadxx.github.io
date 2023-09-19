@@ -61,6 +61,12 @@ nav ul li a {
     font-weight: bold;
 }
 
+.text-block{
+    max-width: 600px;
+    border: 2px solid #000;
+    padding: 10px;
+
+}
 .main-content {
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.5); ;
