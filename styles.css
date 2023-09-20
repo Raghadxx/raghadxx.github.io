@@ -18,14 +18,12 @@ body::before {
     filter: blur(10px); 
 }
 
-.text-container {
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
     align-items: center;
-    height: 300px;
-    max-width: 400px;
+    min-height: 100vh;
     color: #fff;
     font-family: Arial, sans-serif;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
