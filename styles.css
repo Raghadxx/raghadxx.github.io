@@ -18,7 +18,7 @@ body::before {
     filter: blur(10px); 
 }
 
-.container {
+.text {
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -60,14 +60,6 @@ nav ul li a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
-}
-
-.text{
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5); ;
-    margin-top: 60px; 
-    padding: 0px 200px 10px 200px;
-
 }
 
 h1, h2, strong, li, p {
