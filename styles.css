@@ -21,12 +21,13 @@ body::before {
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     min-height: 100vh;
     color: #fff;
     font-family: Arial, sans-serif;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5)
+    
 }
 
 header {
@@ -61,10 +62,12 @@ nav ul li a {
     font-weight: bold;
 }
 
-.main-content {
+.text{
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.5); ;
     margin-top: 60px; 
+    padding: 0px 200px 10px 200px;
+
 }
 
 h1, h2, strong, li, p {
@@ -82,8 +85,8 @@ ul {
     margin-left: 20px;
 }
 
-a {
-    color: #0078d4;
+a{
+    color: #fff;
     text-decoration: none;
 }
 
@@ -97,24 +100,6 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
-
-.algemeen h1 {
-    font-size: 32px;
-    color: #0078d4;
-    background-color: rgba(0, 0, 0, 0.5); 
-}
-
-.algemeen p {
-    font-size: 16px;
-    color: #fff; 
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
-    background-color: rgba(0, 0, 0, 0.5); 
-
-.introductie p{
-
-    background-color: rgba(0, 0, 0, 0.5); 
-}
-} 
 
 @media screen and (max-width: 768px) {
     header h1 {
