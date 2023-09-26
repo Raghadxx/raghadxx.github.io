@@ -31,6 +31,7 @@ body::before {
 
 .text{
     padding: 0px 200px 10px 200px;
+    width: 200px
 }
 
 header {
@@ -73,6 +74,7 @@ h1, h2, strong, li, p {
 p {
     line-height: 1.5;
     color: #fff; 
+    padding: 0px 200px 10px 200px
 }
 
 ul {
