@@ -30,9 +30,7 @@ body{
 }
 
 .text{
-    padding: 0px 200px 10px 200px;
-    background-color: rgba(128, 128, 128, 0.648);
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5)
+    padding: 0px 200px 10px 200px;    
 }
 
 header {
