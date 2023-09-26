@@ -18,7 +18,7 @@ body::before {
     filter: blur(10px); 
 }
 
-.text-container{
+.text{
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -29,7 +29,7 @@ body::before {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5)
 }
 
-.tekst{
+.text{
     padding: 0px 200px 10px 200px;
 }
 
