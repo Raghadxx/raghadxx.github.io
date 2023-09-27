@@ -3,7 +3,7 @@ body, h1, h2, p, ul, li {
     padding: 0;
 }
 
-body{
+body::before{
     content: "";
     background-image: url('Picture.png');
     background-size: cover;
