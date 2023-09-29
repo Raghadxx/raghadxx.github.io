@@ -18,19 +18,17 @@ body::before{
     filter: blur(10px); 
 }
 
-.text{
+div{
     display: flex;
     flex-direction: column;
     justify-content: left;
     align-items: left;
     min-height: 100vh;
-    color: #fff;
+    color: hwb(0 100% 0%);
     font-family: Arial, sans-serif;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5)
-}
-
-.text{
-    padding: 0px 200px 10px 200px;    
+    background-color:rgba(0, 0, 0, 0.5)
+    
+    
 }
 
 header {
