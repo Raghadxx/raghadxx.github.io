@@ -1,115 +1,51 @@
-body, h1, h2, p, ul, li {
+body, h1, h2, p {
     margin: 0;
     padding: 0;
-}
-
-body::before{
-    content: "";
-    background-image: url('Picture.png');
+  }
+  
+  /* Achtergrondafbeelding instellen */
+  body {
+    background-image: url('achtergrondfoto.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    filter: blur(10px); 
-}
-
-div{
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: left;
-    min-height: 100vh;
-    color: hwb(0 100% 0%);
-    font-family: Arial, sans-serif;
-    background-color:rgba(0, 0, 0, 0.5)
-    
-    
-}
-
-header {
-    background-color: rgba(0, 0, 0, 0.5);
-    text-align: center;
-    padding: 20px 0;
-}
-
-header h1 {
+    background-position: center;
+    background-attachment: fixed; /* Hierdoor blijft de achtergrondafbeelding stationair terwijl je scrollt */
+    font-family: Arial, sans-serif; /* Kies een gewenst lettertype */
+    color: #fff; /* Tekstkleur op wit */
+  }
+  
+  /* Inhoudscontainer */
+  .container {
+    max-width: 800px; /* Beperk de maximale breedte van de inhoudscontainer */
+    margin: 0 auto; /* Centreer de container op de pagina */
+    padding: 20px; /* Voeg wat ruimte rond de inhoud toe */
+    background-color: rgba(0, 0, 0, 0.7); /* Achtergrondkleur met een lichte transparantie */
+  }
+  
+  /* Stijl voor koppen */
+  h1 {
     font-size: 36px;
-}
-
-nav ul {
-    background-color: rgba(0, 0, 0, 0.7);
-    list-style-type: none;
-    padding: 10px 0;
-    text-align: center;
-    position: fixed;
-    width: 100%; 
-    top: 0; 
-    z-index: 1; 
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-}
-
-h1, h2, strong, li, p {
-    color: #fff;
-    text-align: center;
-}
-
-p {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Stijl voor paragrafen */
+  p {
+    font-size: 18px;
     line-height: 1.5;
-    color: #fff; 
-    padding: 0px 200px 10px 200px
-}
-
-p{
-  background-color: rgba(0, 0, 0, 0.5)
-}
-
-ul {
-    list-style-type: disc;
-    margin-left: 20px;
-}
-
-a{
-    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  /* Voeg wat stijl toe aan links */
+  a {
+    color: #ffffff; /* Kies een gewenste linkkleur */
     text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-footer {
-    background-color: rgba(0, 0, 0, 0.5); 
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
-
-@media screen and (max-width: 768px) {
-    header h1 {
-        font-size: 24px;
-    }
-    
-    nav ul li {
-        margin-right: 10px;
-    }
-    
-    .main-content {
-        padding: 10px;
-        margin-top: 120px;
-    }
-}
+    transition: color 0.3s; /* Voeg een overgang toe voor de linkkleur */
+  }
+  
+  a:hover {
+    color: #efff15; /* Kleurverandering bij hover */
+  }
