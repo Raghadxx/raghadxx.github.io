@@ -5,7 +5,7 @@ body, h1, h2, p {
   
   /* Achtergrondafbeelding instellen */
   body {
-    background-image: url('achtergrondfoto.jpg');
+    background-image: url('Picture.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Hierdoor blijft de achtergrondafbeelding stationair terwijl je scrollt */
