@@ -23,7 +23,7 @@ div{
     flex-direction: column;
     justify-content: top;
     align-items: top;
-    min-height: 200vh;
+    min-height: 10vh;
     color: hwb(0 100% 0%);
     font-family: Arial, sans-serif;
     background-color:rgba(0, 0, 0, 0.5) 
