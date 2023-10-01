@@ -70,7 +70,6 @@ p {
     color: #fff; 
     padding: 0px 200px 10px 200px
     text-align: left;
-    
 }
 
 p{
@@ -112,3 +111,11 @@ footer {
         margin-top: 120px;
     }
 }
+
+.test{
+    line-height: 1.5;
+    color: #fff; 
+    padding: 0px 200px 10px 200px
+    text-align: left;
+}
+
