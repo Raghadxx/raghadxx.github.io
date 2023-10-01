@@ -29,7 +29,6 @@ div{
 }
 
 
-
 header {
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
@@ -71,6 +70,8 @@ p {
     line-height: 1.5;
     color: #fff; 
     padding: 0px 200px 10px 200px
+    text-align: left;
+    border-radius: 50px;
 }
 
 p{
