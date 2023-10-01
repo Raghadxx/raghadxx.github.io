@@ -21,9 +21,8 @@ body::before{
 div{
     display: flex;
     flex-direction: column;
-    justify-content: top;
-    align-items: top;
-    min-height: 10vh;
+    justify-content: center;
+    align-items: center;
     color: hwb(0 100% 0%);
     font-family: Arial, sans-serif;
     background-color:rgba(0, 0, 0, 0.5) 
