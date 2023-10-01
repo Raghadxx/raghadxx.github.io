@@ -65,10 +65,10 @@ h1, h2, strong, li, p {
     text-align: center;
 }
 
-p {
+.test{
     line-height: 1.5;
     color: #fff; 
-    padding: 0px 200px 10px 200px;
+    width: 50px
 }
 
 p{
@@ -111,9 +111,4 @@ footer {
     }
 }
 
-.test{
-    line-height: 1.5;
-    color: #fff; 
-    padding: 0px 200px 10px 200px
-}
 
