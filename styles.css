@@ -21,8 +21,7 @@ body::before{
 div{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     color: hwb(0 100% 0%);
     font-family: Arial, sans-serif;
     background-color:rgba(0, 0, 0, 0.5) 
@@ -71,7 +70,7 @@ p {
     color: #fff; 
     padding: 0px 200px 10px 200px
     text-align: left;
-    border-radius: 50px;
+    
 }
 
 p{
