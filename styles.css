@@ -20,13 +20,12 @@ body::before{
 div{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     color: hwb(0 100% 0%);
     font-family: Arial, sans-serif;
     background-color:rgba(0, 0, 0, 0.5) 
-    }
-    
+}
 
 header {
     background-color: rgba(0, 0, 0, 0.5);
@@ -96,10 +95,15 @@ footer {
 
 @media screen and (max-width: 768px) {
     header h1 {
-        font-size: 15px;
+        font-size: 24px;
     }
 
     nav ul li {
         margin-right: 10px;
+    }
+
+    .main-content {
+        padding: 10px;
+        margin-top: 120px;
     }
 }
