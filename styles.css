@@ -86,13 +86,12 @@ a:hover {
     color: yellow 
 }
 
-img{
+.image{
     margin: 10px;
     border: 1px solid #ffffff;
     float: right;
     width: 300px
 }
-
 footer {
     background-color: rgba(0, 0, 0, 0.5); 
     color: #fff;
