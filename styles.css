@@ -71,6 +71,9 @@ color: #fff;
 text-align: center;
 }
 
+h1, h2, strong{
+    font-family: Lucida Handwriting
+} 
 
 p {
 line-height: 1.5;
