@@ -104,6 +104,9 @@ footer {
         font-size: 24px;
     }
 
+    p{
+        font-size: 10px
+    }
     nav ul li {
         margin-right: 10px;
     }
