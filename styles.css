@@ -72,8 +72,9 @@ text-align: center;
 }
 
 h1, h2, strong{
-    font-family: Lucida Handwriting
+font-family: Lucida Handwriting
 } 
+
 
 p {
 line-height: 1.5;
@@ -108,29 +109,12 @@ border-radius: 50px;
 }
 
 footer {
-    background-color: #333; /* Donkere achtergrondkleur */
-    color: #fff; /* Witte tekstkleur */
-    text-align: center; /* Tekst uitlijnen in het midden */
-    padding: 20px 0; /* Binnenruimte boven en onder de tekst in de footer vergroot */
-    border-top: 2px solid #fff; /* Voeg een witte bovenrand toe voor scheiding */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5)
 }
-
-footer p {
-    margin: 0; /* Verwijder de standaard marges van paragraaf binnen de footer */
-}
-
-/* Voeg een stijl toe aan de links in de footer */
-footer a {
-    color: #ffc107; /* Gele kleur voor links */
-    text-decoration: none; /* Verwijder onderstreping */
-}
-
-/* Stijl voor de links bij hover */
-footer a:hover {
-    text-decoration: underline; /* Onderstreping bij hover */
-}
-
-
 
 @media screen and (max-width: 768px) {
 header h1 {
