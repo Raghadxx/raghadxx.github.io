@@ -19,29 +19,54 @@ body {
   /* ... (rest van je CSS-stijlen blijven hetzelfde) */
   
   /* Stijl voor de navigatiebalk */
-  nav {
+ 
+  /* ... (andere CSS-stijlen hier) */
+
+/* Stijl voor de navigatiebalk */
+nav {
     background-color: #333;
     color: #fff;
-    text-align: center;
-    padding: 10px 0;
+    display: flex;
+    justify-content: space-between; /* Plaatst de elementen aan de uiteinden van de balk */
+    align-items: center;
+    padding: 10px 20px; /* Marge en vulling instellen zoals gewenst */
   }
   
-  nav ul {
-    list-style: none;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin-right: 20px;
-  }
-  
-  nav ul li a {
-    text-decoration: underline;
-    color: #fff;
+  .nav-left p {
     font-weight: bold;
     font-size: 18px;
+    margin: 0;
   }
   
+  .nav-right {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-right li {
+    display: inline;
+    margin-left: 20px; /* Voegt een ruimte tussen de paginalinks toe */
+  }
+  
+  .nav-right a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  /* Mediaquery voor mobielresponsiviteit */
+  @media screen and (max-width: 768px) {
+    .nav-right {
+      display: block; /* Verander naar gestapelde weergave voor mobiele apparaten */
+    }
+  
+    .nav-right li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
   /* Stijl voor de header */
   header {
     background-color: #0078d4;
