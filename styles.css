@@ -108,12 +108,28 @@ border-radius: 50px;
 }
 
 footer {
-background-color: rgba(0, 0, 0, 0.5); 
-color: #fff;
-text-align: center;
-padding: 10px 0;
-margin-bottom: 0
+    background-color: #333; /* Donkere achtergrondkleur */
+    color: #fff; /* Witte tekstkleur */
+    text-align: center; /* Tekst uitlijnen in het midden */
+    padding: 20px 0; /* Binnenruimte boven en onder de tekst in de footer vergroot */
+    border-top: 2px solid #fff; /* Voeg een witte bovenrand toe voor scheiding */
 }
+
+footer p {
+    margin: 0; /* Verwijder de standaard marges van paragraaf binnen de footer */
+}
+
+/* Voeg een stijl toe aan de links in de footer */
+footer a {
+    color: #ffc107; /* Gele kleur voor links */
+    text-decoration: none; /* Verwijder onderstreping */
+}
+
+/* Stijl voor de links bij hover */
+footer a:hover {
+    text-decoration: underline; /* Onderstreping bij hover */
+}
+
 
 
 @media screen and (max-width: 768px) {
