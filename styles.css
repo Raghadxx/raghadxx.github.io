@@ -1,104 +1,110 @@
-/* Resetten van standaardmarges en -paddings */
 body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
-  }
-  
- /* Algemene stijl voor de body inclusief achtergrondafbeelding */
-body {
-    font-family: Arial, sans-serif;
-    background-image: url('Picture.png'); /* Voeg hier het pad naar je achtergrondafbeelding toe */
+}
+body::before{
+    content: "";
+    background-image: url('Picture.png');
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
-    color: #fff;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* ... (rest van je CSS-stijlen blijven hetzelfde) */
-  
-  /* Stijl voor de navigatiebalk */
- 
-  /* ... (andere CSS-stijlen hier) */
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    filter: blur(10px); 
+}
 
-/* Stijl voor de navigatiebalk */
-/* Stijl voor de navigatiebalk met een dikkere boven- en ondermarge */
-nav {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0; /* Dikkere boven- en ondermarge toegevoegd */
+div{
     display: flex;
-    justify-content: space-between;
-  }
-  
-  .nav-left p {
-    font-weight: bold;
-    font-size: 18px;
-    margin: 0;
-  }
-  
-  .nav-right {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .nav-right li {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 200vh;
+    color: hwb(0 100% 0%);
+    font-family: Arial, sans-serif;
+    background-color:rgba(0, 0, 0, 0.5) 
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+nav ul {
+    background-color: rgba(0, 0, 0, 0.7);
+    list-style-type: none;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%; 
+    top: 0; 
+    z-index: 1; 
+}
+
+nav ul li {
     display: inline;
-    margin-left: 20px;
-  }
-  
-  .nav-right a {
+    margin-right: 20px;
+}
+
+nav ul li a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
-    font-size: 16px;
-  }
-  
-  /* Mediaquery voor mobielresponsiviteit */
-  @media screen and (max-width: 768px) {
-    .nav-right {
-      display: block;
-    }
-  
-    .nav-right li {
-      display: block;
-      margin: 10px 0;
-    }
-  }
-  
-  /* Stijl voor de header */
-  header {
-    background-color: #0078d4;
+}
+
+h1, h2, strong, li, p {
     color: #fff;
     text-align: center;
-    padding: 40px 0;
-  }
-  
-  /* Stijl voor de hoofdtekst */
-  .text {
-    font-size: 16px;
+}
+
+p {
     line-height: 1.5;
-    margin: 20px;
-    padding: 20px;
-    background-color: #fff;
-  }
-  
-  /* Stijl voor de footer */
-  footer {
+    color: #fff; 
+    padding: 0px 200px 10px 200px
+}
+p{
+  background-color: rgba(0, 0, 0, 0.5)
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+a{
+    color: #fff;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: yellow 
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #fff;
     text-align: center;
     padding: 10px 0;
-    background-color: #333;
-    color: #fff;
-  }
-  
-  /* Mediaquery voor mobielresponsiviteit */
-  @media screen and (max-width: 768px) {
-    nav ul li {
-      display: block;
-      margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
     }
-  }
-  
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    .main-content {
+        padding: 10px;
+        margin-top: 120px;
+    }
+}
