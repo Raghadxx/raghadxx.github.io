@@ -23,13 +23,14 @@ body {
   /* ... (andere CSS-stijlen hier) */
 
 /* Stijl voor de navigatiebalk */
+/* Stijl voor de navigatiebalk met een dikkere boven- en ondermarge */
 nav {
     background-color: #333;
     color: #fff;
+    text-align: center;
+    padding: 20px 0; /* Dikkere boven- en ondermarge toegevoegd */
     display: flex;
-    justify-content: space-between; /* Plaatst de elementen aan de uiteinden van de balk */
-    align-items: center;
-    padding: 10px 20px; /* Marge en vulling instellen zoals gewenst */
+    justify-content: space-between;
   }
   
   .nav-left p {
@@ -46,7 +47,7 @@ nav {
   
   .nav-right li {
     display: inline;
-    margin-left: 20px; /* Voegt een ruimte tussen de paginalinks toe */
+    margin-left: 20px;
   }
   
   .nav-right a {
@@ -59,7 +60,7 @@ nav {
   /* Mediaquery voor mobielresponsiviteit */
   @media screen and (max-width: 768px) {
     .nav-right {
-      display: block; /* Verander naar gestapelde weergave voor mobiele apparaten */
+      display: block;
     }
   
     .nav-right li {
@@ -67,6 +68,7 @@ nav {
       margin: 10px 0;
     }
   }
+  
   /* Stijl voor de header */
   header {
     background-color: #0078d4;
