@@ -162,7 +162,7 @@ nav ul li {
 .third-level-menu > li
 {
     height: 30px;
-    background: #999999;
+    background: #000000aa;
 
 }
 
@@ -185,7 +185,7 @@ nav ul li {
 {
     position: relative;
     height: 30px;
-    background: #00000098;
+    background: #0000003b;
 }
 .second-level-menu > li:hover { background: #00000000; }
 
